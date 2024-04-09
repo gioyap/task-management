@@ -13,7 +13,7 @@ import {
   import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
   import { TasksService } from './tasks.service';
   import { Task } from './tasks.entity';
-  
+
   @Controller('tasks')
   export class TasksController {
     constructor(private tasksService: TasksService) {}
